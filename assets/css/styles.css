@@ -1,1 +1,63 @@
-/* this is my css file*/
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    color: black;
+    margin: 50px;
+    border-collapse: collapse;
+}
+.container .heading{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 2px solid black;
+}
+.container .heading h1{
+    margin: 10px;
+    text-decoration: underline;
+}
+.container .heading h3{
+    margin: 10px;
+}
+.container .heading a{
+    color: black;
+    text-decoration: none;
+}
+.container .heading a:hover{
+    color: blue;
+    text-decoration: underline;
+    text-shadow: 5px black;
+    cursor: pointer;
+}
+.image-container{
+    border: 2px solid black;
+}
+.image-container img{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+.skillset{
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+}
+.skillset h1{
+    margin: 5px;
+    text-decoration: underline;
+}
+.skillset ol li{
+    font-size: large;
+}
+.skillset ul li{
+    font-size: large;
+}
+.skillset .Strengths{
+    border: 2px solid black;
+}
+.skillset .Weakness{
+    border: 2px solid black;
+}
