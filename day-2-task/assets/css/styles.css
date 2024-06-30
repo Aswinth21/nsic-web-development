@@ -1,0 +1,61 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    background-color: #CED2CC;
+    color: #23282D;
+    padding: 10px;
+    border: 2px solid black;
+}
+div{
+    margin: 10px;
+    text-align: left;
+}
+input{
+    width: 100%;
+}
+.gender{
+    display: inline;
+}
+.gender input{
+    width: 13px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+select:hover{
+    cursor: pointer;
+}
+label{
+    font-weight: bold;
+    font-size: large;
+}
+.gender label{
+    font-weight: lighter;
+    font-size: medium;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn input{
+    width: 80px;
+}
+.btn input:hover{
+    background-color: #23282D;
+    color: #CED2CC;
+    cursor: pointer;
+    box-shadow: 5px #CED2CC;
+}
+.age{
+    display: inline;
+}
+.age input{
+    width: 50px;
+}
